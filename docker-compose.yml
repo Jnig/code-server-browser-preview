@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+  code:
+    build: code/
+    restart: unless-stopped
+    ports: 
+      - "8443:8443"
+
+
+
+
